@@ -1,0 +1,77 @@
+{
+    "karbantartas": {
+        "oszlopok": [
+            {
+                "key": "id",
+                "text": "#",
+                "type": "plain"
+            },
+            {
+                "key": "megnevezes",
+                "text": "Name",
+                "type": "text"
+            },
+            {
+                "key": "kepUrl",
+                "text": "imageUrl",
+                "type": "textarea"
+            },
+            {
+                "key": "leiras",
+                "text": "Description",
+                "type": "textarea"
+            },
+            {
+                "key": "ar",
+                "text": "Price",
+                "type": "number"
+            }
+        ],
+        "ActionHeader": "Actions",
+        "addBtn": "Add",
+        "saveBtn": "Save",
+        "editBtn": "Edit",
+        "delBtn": "Delete"
+    },
+    "nav": {
+        "menu": [
+            {
+                "text": "Home",
+                "link": "home",
+                "comp": "HomeComponent",
+                "pathMatch": "full"
+            },
+            {
+                "text": "Service",
+                "link": "karbantartas",
+                "comp": "KarbantartasComponent"
+            },
+            {
+                "text": "Sign in",
+                "link": "login",
+                "comp": "LoginComponent"
+            },
+            {
+                "text": "Sign up",
+                "link": "register",
+                "comp": "RegisterComponent"
+            },
+            {
+                "text": "",
+                "link": "porder",
+                "comp": "PurchaseOrderComponent"
+            }
+        ],
+        "nyelv": [
+            {
+                "text": "Magyar",
+                "sign": "hu"
+            },
+            {
+                "text": "English",
+                "sign": "en"
+            }
+        ],
+        "search": "Search"
+    }
+}

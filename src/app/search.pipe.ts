@@ -7,7 +7,7 @@ export class SearchPipe implements PipeTransform {
 
   transform(novenyek:any, nev:any): any {
     if (!novenyek) return novenyek
-    if (!nev || nev.length==0) {
+    if (!nev) {
       // console.log("vissza üres")
       return novenyek}
     

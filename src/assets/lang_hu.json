@@ -1,0 +1,77 @@
+{
+    "karbantartas": {
+        "oszlopok": [
+            {
+                "key": "id",
+                "text": "#",
+                "type": "plain"
+            },
+            {
+                "key": "megnevezes",
+                "text": "Név",
+                "type": "text"
+            },
+            {
+                "key": "kepUrl",
+                "text": "KépUrl",
+                "type": "textarea"
+            },
+            {
+                "key": "leiras",
+                "text": "Leírás",
+                "type": "textarea"
+            },
+            {
+                "key": "ar",
+                "text": "Ár",
+                "type": "number"
+            }
+        ],
+        "ActionHeader": "Műveletek",
+        "addBtn": "Hozzáadás",
+        "saveBtn": "Mentés",
+        "editBtn": "Szerkesztés",
+        "delBtn": "Törlés"
+    },
+    "nav": {
+        "menu": [
+            {
+                "text": "Kezdőlap",
+                "link": "home",
+                "comp": "HomeComponent",
+                "pathMatch": "full"
+            },
+            {
+                "text": "Karbantartás",
+                "link": "karbantartas",
+                "comp": "KarbantartasComponent"
+            },
+            {
+                "text": "Bejelentkezés",
+                "link": "login",
+                "comp": "LoginComponent"
+            },
+            {
+                "text": "Regisztráció",
+                "link": "register",
+                "comp": "RegisterComponent"
+            },
+            {
+                "text": "",
+                "link": "porder",
+                "comp": "PurchaseOrderComponent"
+            }
+        ],
+        "nyelv": [
+            {
+                "text": "Magyar",
+                "sign": "hu"
+            },
+            {
+                "text": "English",
+                "sign": "en"
+            }
+        ],
+        "search": "Keresés"
+    }
+}

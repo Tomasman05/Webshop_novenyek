@@ -1,0 +1,25 @@
+<!-- {{tetelek|json}} -->
+<h1>Kosár</h1>
+
+<ng-container *ngIf="tetelek.length>0; else empty">
+    <div *ngFor="let tetel of tetelek" class="card">    
+        <div class="card-body">
+        <h5 class="card-title">{{keresNoveny(tetel.id).megnevezes}}</h5>
+            <div class="input-group">
+                <span class="input-group-text"> {{keresNoveny(tetel.id).ar}}Ft x</span>
+                <input [(ngModel)]="tetel.db" type="number" class="form-control">
+                <span class="input-group-text">db = {{tetelOsszes(tetel)}} Ft </span>
+              </div>
+        </div>
+        <button (click)="torol(tetel)" type="button" class="btn btn-danger btn-sm">Törlés</button>
+    </div>
+
+    <h2>Fizetendő:</h2>
+    <div>{{osszesen()}} Ft</div>
+    <button routerLink="/porder" class="btn btn-outline-secondary" type="button">
+        Megrendelés elküldése
+    </button>
+</ng-container>
+<ng-template #empty>
+    <h2>Kosár üres</h2>
+</ng-template>
